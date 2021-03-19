@@ -186,3 +186,8 @@ components:
         - lastName
         - email
         - emailVerified
+  securitySchemes:
+    API Key - 1:
+      name: API Key
+      type: apiKey
+      in: query
